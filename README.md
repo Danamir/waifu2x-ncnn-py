@@ -3,8 +3,8 @@
 Python Binding for waifu2x-ncnn-vulkan with PyBind11
 
 [![PyPI version](https://badge.fury.io/py/waifu2x-ncnn-py.svg?123456)](https://badge.fury.io/py/waifu2x-ncnn-py?123456)
-[![test_pip](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/test_pip.yml/badge.svg)](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/test_pip.yml)
-[![Release](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/Release.yml/badge.svg)](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/Release.yml)
+[![test_pip](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/test_pip.yml/badge.svg)](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/test_pip.yml)
+[![Release](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/Release.yml/badge.svg)](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/Release.yml)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/waifu2x-ncnn-py)
 
 Image Super-Resolution for Anime-style art using Deep Convolutional Neural Networks. And it supports photo. This wrapper provides an easy-to-use interface for running the pre-trained Waifu2x model.
@@ -13,11 +13,11 @@ Image Super-Resolution for Anime-style art using Deep Convolutional Neural Netwo
 
 |    System     |                                                                                                             Status                                                                                                              | CPU (32bit) |    CPU (64bit)     | GPU (32bit) |    GPU (64bit)     |
 | :-----------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------: | :----------------: | :---------: | :----------------: |
-| Linux (Clang) |          [![CI-Linux-x64-Clang](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/CI-Linux-x64-Clang.yml/badge.svg)](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/CI-Linux-x64-Clang.yml)          |      —      | :white_check_mark: |      —      | :white_check_mark: |
-|  Linux (GCC)  |             [![CI-Linux-x64-GCC](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/CI-Linux-x64-GCC.yml/badge.svg)](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/CI-Linux-x64-GCC.yml)             |      —      | :white_check_mark: |      —      | :white_check_mark: |
-|    Windows    |        [![CI-Windows-x64-MSVC](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/CI-Windows-x64-MSVC.yml/badge.svg)](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/CI-Windows-x64-MSVC.yml)         |      —      | :white_check_mark: |      —      | :white_check_mark: |
-|     MacOS     | [![CI-MacOS-Universal-Clang](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/CI-MacOS-Universal-Clang.yml/badge.svg)](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/CI-MacOS-Universal-Clang.yml) |      —      | :white_check_mark: |      —      | :white_check_mark: |
-|  MacOS (ARM)  | [![CI-MacOS-Universal-Clang](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/CI-MacOS-Universal-Clang.yml/badge.svg)](https://github.com/Tohrusky/waifu2x-ncnn-py/actions/workflows/CI-MacOS-Universal-Clang.yml) |      —      | :white_check_mark: |      —      | :white_check_mark: |
+| Linux (Clang) |          [![CI-Linux-x64-Clang](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/CI-Linux-x64-Clang.yml/badge.svg)](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/CI-Linux-x64-Clang.yml)          |      —      | :white_check_mark: |      —      | :white_check_mark: |
+|  Linux (GCC)  |             [![CI-Linux-x64-GCC](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/CI-Linux-x64-GCC.yml/badge.svg)](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/CI-Linux-x64-GCC.yml)             |      —      | :white_check_mark: |      —      | :white_check_mark: |
+|    Windows    |        [![CI-Windows-x64-MSVC](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/CI-Windows-x64-MSVC.yml/badge.svg)](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/CI-Windows-x64-MSVC.yml)         |      —      | :white_check_mark: |      —      | :white_check_mark: |
+|     MacOS     | [![CI-MacOS-Universal-Clang](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/CI-MacOS-Universal-Clang.yml/badge.svg)](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/CI-MacOS-Universal-Clang.yml) |      —      | :white_check_mark: |      —      | :white_check_mark: |
+|  MacOS (ARM)  | [![CI-MacOS-Universal-Clang](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/CI-MacOS-Universal-Clang.yml/badge.svg)](https://github.com/Danamir/waifu2x-ncnn-py/actions/workflows/CI-MacOS-Universal-Clang.yml) |      —      | :white_check_mark: |      —      | :white_check_mark: |
 
 # Usage
 
@@ -91,7 +91,7 @@ while True:
 
 # Build
 
-[here](https://github.com/Tohrusky/waifu2x-ncnn-py/blob/main/.github/workflows/Release.yml)
+[here](https://github.com/Danamir/waifu2x-ncnn-py/blob/main/.github/workflows/Release.yml)
 
 _The project just only been tested in Ubuntu 18+ and Debian 9+ environments on Linux, so if the project does not work on your system, please try building it._
 
@@ -109,4 +109,4 @@ The following references were used in the development of this project:
 
 # License
 
-This project is licensed under the BSD 3-Clause - see the [LICENSE file](https://github.com/Tohrusky/realcugan-ncnn-py/blob/main/LICENSE) for details.
+This project is licensed under the BSD 3-Clause - see the [LICENSE file](https://github.com/Danamir/waifu2x-ncnn-py/blob/main/LICENSE) for details.
